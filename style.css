@@ -7,3 +7,56 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size:2.5rem;
+    font-family: "Rubik Dirt", cursive;
+    padding-bottom: 15px;
+}
+
+.hero-prinicpal h2{
+    font-size: 1.5rem;
+    color:#615151;
+}
+
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-prinicpal{
+    padding:3px;
+}
+
+.hero-imagen-principal{
+    height: 200px;
+    width: 200px;
+    border-radius:100%;
+}
+
+.img-sm{
+    width: 80px;
+}
+
+.img-md{
+    width: 70px;
+}
+
+.container-learned{
+    margin-top: 15px;
+}
+
